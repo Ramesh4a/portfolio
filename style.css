@@ -590,7 +590,7 @@ section form{
     max-width: 70rem;
     text-align: center;
     margin: 1rem auto;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 .input-box{
     display: flex;
