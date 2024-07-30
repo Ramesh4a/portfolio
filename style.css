@@ -102,6 +102,7 @@ section{
 }
 .text-content h1{
     font-size: 5rem;
+    padding-left: 4%;
     color: #fff;
     text-transform: capitalize;
     letter-spacing: .05rem;
@@ -117,6 +118,7 @@ section{
 }
 .text-animation h2{
     font-size: 3.2rem;
+    padding-left: 4%;
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px #9900ff;
