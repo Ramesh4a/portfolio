@@ -97,7 +97,8 @@ section{
     align-items: center;
 }
 .text-content{
-    max-width: 70rem;
+    max-width: 65rem;
+    
 }
 .text-content h1{
     font-size: 5rem;
