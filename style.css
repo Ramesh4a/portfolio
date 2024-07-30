@@ -117,7 +117,7 @@ section{
     width: 55.8rem;
 }
 .text-animation h2{
-    font-size: 3.2rem;
+    font-size: 3rem;
     padding-left: 4%;
     font-weight: 700;
     color: transparent;
@@ -570,6 +570,9 @@ section.start-animation .skill-box2{
     border-radius: 50rem;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bar{
     position: absolute;
@@ -590,7 +593,6 @@ section form{
     max-width: 70rem;
     text-align: center;
     margin: 1rem auto;
-    
 }
 
 .input-box{
