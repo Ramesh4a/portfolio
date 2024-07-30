@@ -171,6 +171,7 @@ section{
 }
 .text-content p{
     font-size: 1.4rem;
+    padding-left: 4%;
     margin: 1rem 0;
     transform: translateX(100px);
     opacity: 0;
@@ -189,6 +190,7 @@ section{
 }
 .btn-section{
     width: 32.5rem;
+    padding-left: 4%;
     height: 5rem;
     display: flex;
     justify-content: space-between;
@@ -251,6 +253,7 @@ section{
 }
 .social-media {
     margin: 2rem 0;
+    padding-left: 4%;
 }
 .social-media i{
     display: inline-block;
