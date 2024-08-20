@@ -26,3 +26,12 @@ window.onscroll = ()=>{
     menubar.classList.remove('bx-x');
     Navbar.classList.remove('active')
 } 
+
+function toggleAimbot(action) {
+    fetch(`http://<192.168.1.64>:5000/toggleAimbot?action=${action}`, {
+        method: 'POST'
+    })
+    .then(response => response.json())
+    .then(data => alert(data.message))
+    .catch(error => console.error('Error:', error));
+}
