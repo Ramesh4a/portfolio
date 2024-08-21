@@ -19,7 +19,7 @@
                         if (response.ok) {
                             // Add a timestamp to avoid caching issues
                             const timestamp = new Date().getTime();
-                            document.getElementById('screenshot').src = `http://localhost:8000/screenshot?${timestamp}`;
+                            document.getElementById('screenshot').src = `https://itsmeramesh.vercel.app/screenshot.png?${timestamp}`;
                             document.getElementById('screenshot').style.display = 'block';
                         }
                     }
